@@ -8,7 +8,7 @@
 ## 1. Exam Pattern — Prelims (CORRECT ✅ — IT Officer)
 
 | Sr. | Section | Questions | Marks | Medium | Time |
-|---|---|---|---|---|---|
+|---|---|---:|---:|---|---|
 | 1 | English Language | 25 | 25 | English only | 20 min |
 | 2 | Reasoning | 25 | 25 | English & Hindi | 20 min |
 | 3 | Quantitative Aptitude | 25 | 25 | English & Hindi | 20 min |
@@ -41,7 +41,7 @@ IBPS SO Prelims me **har section ka alag cut-off** hota hai:
 ## 3. Realistic Target (125 marks total)
 
 | Section | Max | Target | Priority |
-|---|---|---|---|
+|---|---:|---:|---|
 | **Professional Knowledge** | 50 | **28 – 38** | 🔴 Highest |
 | **Reasoning** | 25 | **18 – 22** | 🔴 High |
 | **English** | 25 | **12 – 16** | 🟠 Medium |
@@ -68,7 +68,7 @@ IBPS SO Prelims me **har section ka alag cut-off** hota hai:
 ## 5. Daily Routine (updated — 4 sections)
 
 | Block | Time | Kaam |
-|---|---|---|
+|---|---:|---|
 | Reasoning | 45 min | Topic + practice |
 | English | 35 min | Grammar/vocab/reading |
 | Quant | 30 min | Easy topic only |
@@ -79,7 +79,42 @@ IBPS SO Prelims me **har section ka alag cut-off** hota hai:
 
 ---
 
-## 6. Exam Day Order (suggested)
+## 6. Mock Practice & Progress Tracking
+
+Daily mock work is kept under dated folders such as `2026-08-20/`. Each folder can contain the daily plan, full mock, mock analysis, and exam JSON used by the practice platform.
+
+### 20 Aug 2026 — Restart Mock ✅
+
+**Mock:** `IBPS IT Officer Prelims — Restart Mock (Comeback Day)`
+
+| Result | Value |
+|---|---:|
+| Questions | **100** |
+| Correct | **99** |
+| Wrong | **1** |
+| Skipped | **0** |
+| Website score | **98.75 / 125** |
+| Accuracy | **99%** |
+| Time spent | **27m 47s** |
+
+### Section Performance
+
+| Section | Result |
+|---|---|
+| **Professional Knowledge** | **25 / 25 correct** ✅ |
+| **English Language** | **25 / 25 correct** ✅ |
+| **Reasoning Ability** | **25 / 25 correct** ✅ |
+| **Quantitative Aptitude** | **24 / 25 correct** ⚠️ |
+
+**Only mistake:** Q96 — `25% of 480 = 120`.
+
+> 🔥 **Comeback result: 99/100 correct.** Strong return after the break. Next focus: keep the same accuracy and reduce Quant calculation mistakes.
+
+> ⚠️ The current practice site's result shows **98.75 / 125**. The 20 Aug mock JSON also notes that PK questions are intended to carry 2 marks each, so the scoring implementation should be reviewed separately.
+
+---
+
+## 7. Exam Day Order (suggested)
 
 1. **Professional Knowledge (20 min)** — fresh mind, 2 marks per Q
 2. **English (20 min)** — quick scoring

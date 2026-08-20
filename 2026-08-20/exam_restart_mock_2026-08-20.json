@@ -1,0 +1,1754 @@
+{
+  "exam": {
+    "id": "ibps-it-officer-restart-mock-2026-08-20",
+    "title": "IBPS IT Officer Prelims — Restart Mock (Comeback Day)",
+    "type": "IBPS SO Scale-I | IT Officer Prelims",
+    "date": "2026-08-20",
+    "duration_minutes": 80,
+    "total_questions": 100,
+    "total_marks": 125,
+    "marking": {
+      "correct": 1,
+      "wrong": -0.25,
+      "unattempted": 0,
+      "note": "PK questions have marks:2 each (25×2=50). Other sections marks:1 each. If your site supports per-question marks, use question.marks. Else net≈ correctCount - 0.25*wrong; for PK score multiply PK correct by 2."
+    },
+    "sections": [
+      {
+        "id": "pk",
+        "name": "Professional Knowledge",
+        "questions": 25,
+        "marks": 50
+      },
+      {
+        "id": "english",
+        "name": "English Language",
+        "questions": 25,
+        "marks": 25
+      },
+      {
+        "id": "reasoning",
+        "name": "Reasoning Ability",
+        "questions": 25,
+        "marks": 25
+      },
+      {
+        "id": "quant",
+        "name": "Quantitative Aptitude",
+        "questions": 25,
+        "marks": 25
+      }
+    ],
+    "suggested_order": [
+      "pk",
+      "english",
+      "reasoning",
+      "quant"
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "section": "pk",
+        "question": "Which of the following is a DML command?",
+        "options": {
+          "A": "CREATE",
+          "B": "SELECT",
+          "C": "DROP",
+          "D": "ALTER"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "DBMS",
+        "subtopic": "SQL Commands",
+        "explanation": "SELECT is Data Manipulation Language (DML). CREATE/DROP/ALTER are DDL.",
+        "marks": 2
+      },
+      {
+        "id": 2,
+        "section": "pk",
+        "question": "A Primary Key must be:",
+        "options": {
+          "A": "NULL allowed",
+          "B": "Unique and NOT NULL",
+          "C": "Duplicate allowed",
+          "D": "Always optional"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "DBMS",
+        "subtopic": "Keys",
+        "explanation": "Primary Key uniquely identifies a row and cannot be NULL.",
+        "marks": 2
+      },
+      {
+        "id": 3,
+        "section": "pk",
+        "question": "Which clause filters individual rows in SQL?",
+        "options": {
+          "A": "HAVING",
+          "B": "WHERE",
+          "C": "ORDER BY",
+          "D": "GROUP BY"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "DBMS",
+        "subtopic": "SQL Clauses",
+        "explanation": "WHERE filters rows before grouping. HAVING filters groups.",
+        "marks": 2
+      },
+      {
+        "id": 4,
+        "section": "pk",
+        "question": "Which clause filters groups after aggregation?",
+        "options": {
+          "A": "WHERE",
+          "B": "HAVING",
+          "C": "FROM",
+          "D": "JOIN"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "DBMS",
+        "subtopic": "SQL Clauses",
+        "explanation": "HAVING filters groups created by GROUP BY.",
+        "marks": 2
+      },
+      {
+        "id": 5,
+        "section": "pk",
+        "question": "In ACID, Atomicity means:",
+        "options": {
+          "A": "Permanent storage",
+          "B": "All or nothing transaction",
+          "C": "High speed",
+          "D": "UI style"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "DBMS",
+        "subtopic": "ACID",
+        "explanation": "Atomicity = transaction fully commits or fully rolls back.",
+        "marks": 2
+      },
+      {
+        "id": 6,
+        "section": "pk",
+        "question": "3NF mainly removes:",
+        "options": {
+          "A": "Partial dependency",
+          "B": "Transitive dependency",
+          "C": "Atomicity issues",
+          "D": "NULL values"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "DBMS",
+        "subtopic": "Normalization",
+        "explanation": "Third Normal Form eliminates transitive dependencies.",
+        "marks": 2
+      },
+      {
+        "id": 7,
+        "section": "pk",
+        "question": "A program in execution is called a:",
+        "options": {
+          "A": "File",
+          "B": "Process",
+          "C": "Folder",
+          "D": "Port"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Operating Systems",
+        "subtopic": "Process Management",
+        "explanation": "A process is a program currently in execution.",
+        "marks": 2
+      },
+      {
+        "id": 8,
+        "section": "pk",
+        "question": "Round Robin scheduling uses:",
+        "options": {
+          "A": "Priority only",
+          "B": "Time quantum",
+          "C": "Random selection",
+          "D": "Longest job first"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Operating Systems",
+        "subtopic": "CPU Scheduling",
+        "explanation": "RR gives each ready process a fixed time slice (quantum).",
+        "marks": 2
+      },
+      {
+        "id": 9,
+        "section": "pk",
+        "question": "A page fault means:",
+        "options": {
+          "A": "Page already in RAM",
+          "B": "Required page must be loaded from disk",
+          "C": "Page is deleted",
+          "D": "Page is printed"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "Operating Systems",
+        "subtopic": "Memory Management",
+        "explanation": "Page fault occurs when the needed page is not in main memory.",
+        "marks": 2
+      },
+      {
+        "id": 10,
+        "section": "pk",
+        "question": "The kernel is:",
+        "options": {
+          "A": "A user application",
+          "B": "The core of the operating system",
+          "C": "A web browser",
+          "D": "A modem"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Operating Systems",
+        "subtopic": "OS Basics",
+        "explanation": "Kernel is the central component of an OS.",
+        "marks": 2
+      },
+      {
+        "id": 11,
+        "section": "pk",
+        "question": "TCP is best described as:",
+        "options": {
+          "A": "Connectionless",
+          "B": "Reliable and connection-oriented",
+          "C": "Physical layer only",
+          "D": "Always same as UDP"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Computer Networks",
+        "subtopic": "TCP/IP",
+        "explanation": "TCP provides reliable, ordered, connection-oriented delivery.",
+        "marks": 2
+      },
+      {
+        "id": 12,
+        "section": "pk",
+        "question": "A router primarily works at which OSI layer?",
+        "options": {
+          "A": "Physical",
+          "B": "Data Link",
+          "C": "Network",
+          "D": "Session"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Computer Networks",
+        "subtopic": "Devices",
+        "explanation": "Routers forward packets using IP addresses (Network layer).",
+        "marks": 2
+      },
+      {
+        "id": 13,
+        "section": "pk",
+        "question": "Default HTTPS port is:",
+        "options": {
+          "A": "80",
+          "B": "443",
+          "C": "21",
+          "D": "25"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Computer Networks",
+        "subtopic": "Ports",
+        "explanation": "HTTPS uses TCP port 443; HTTP uses 80.",
+        "marks": 2
+      },
+      {
+        "id": 14,
+        "section": "pk",
+        "question": "DNS mainly converts:",
+        "options": {
+          "A": "MAC to IP",
+          "B": "Domain name to IP address",
+          "C": "File to HTML",
+          "D": "Cookie to session"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Computer Networks",
+        "subtopic": "DNS",
+        "explanation": "DNS resolves human-readable domain names to IP addresses.",
+        "marks": 2
+      },
+      {
+        "id": 15,
+        "section": "pk",
+        "question": "Which data structure follows LIFO?",
+        "options": {
+          "A": "Queue",
+          "B": "Stack",
+          "C": "Array only",
+          "D": "Graph only"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Data Structures",
+        "subtopic": "Stack",
+        "explanation": "Stack = Last In First Out (push/pop at top).",
+        "marks": 2
+      },
+      {
+        "id": 16,
+        "section": "pk",
+        "question": "Which data structure follows FIFO?",
+        "options": {
+          "A": "Stack",
+          "B": "Queue",
+          "C": "Tree only",
+          "D": "Hash only"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Data Structures",
+        "subtopic": "Queue",
+        "explanation": "Queue = First In First Out.",
+        "marks": 2
+      },
+      {
+        "id": 17,
+        "section": "pk",
+        "question": "Usually the first SDLC phase is:",
+        "options": {
+          "A": "Coding",
+          "B": "Requirement analysis",
+          "C": "Deployment",
+          "D": "Testing"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Software Engineering",
+        "subtopic": "SDLC",
+        "explanation": "SDLC starts with gathering/analyzing requirements.",
+        "marks": 2
+      },
+      {
+        "id": 18,
+        "section": "pk",
+        "question": "HTML mainly provides:",
+        "options": {
+          "A": "Style",
+          "B": "Structure/content",
+          "C": "Database storage",
+          "D": "Operating system"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Web Technologies",
+        "subtopic": "HTML",
+        "explanation": "HTML defines structure; CSS styles; JS adds behaviour.",
+        "marks": 2
+      },
+      {
+        "id": 19,
+        "section": "pk",
+        "question": "SaaS stands for:",
+        "options": {
+          "A": "Software as a Service",
+          "B": "System as Storage",
+          "C": "Switch as Server",
+          "D": "None of these"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Cloud Computing",
+        "subtopic": "Service Models",
+        "explanation": "SaaS delivers software over the internet (e.g., web apps).",
+        "marks": 2
+      },
+      {
+        "id": 20,
+        "section": "pk",
+        "question": "AES is typically a:",
+        "options": {
+          "A": "Symmetric encryption algorithm",
+          "B": "Asymmetric-only algorithm",
+          "C": "Hash-only function",
+          "D": "Computer virus"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Cyber Security",
+        "subtopic": "Encryption",
+        "explanation": "AES uses the same key for encryption and decryption (symmetric).",
+        "marks": 2
+      },
+      {
+        "id": 21,
+        "section": "pk",
+        "question": "Phishing is:",
+        "options": {
+          "A": "A water sport",
+          "B": "Fraudulent messages to steal information",
+          "C": "A firewall type",
+          "D": "A backup method"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Cyber Security",
+        "subtopic": "Attacks",
+        "explanation": "Phishing tricks users (fake mails/links) to reveal secrets like OTP.",
+        "marks": 2
+      },
+      {
+        "id": 22,
+        "section": "pk",
+        "question": "IaaS mainly provides:",
+        "options": {
+          "A": "Only email UI",
+          "B": "Infrastructure such as VMs and storage",
+          "C": "Only painting tools",
+          "D": "Only keyboards"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "Cloud Computing",
+        "subtopic": "Service Models",
+        "explanation": "IaaS = virtual machines, networks, storage on demand.",
+        "marks": 2
+      },
+      {
+        "id": 23,
+        "section": "pk",
+        "question": "Core Banking Solution (CBS) means:",
+        "options": {
+          "A": "Only one branch ledger",
+          "B": "Centralized banking accessible from channels/branches",
+          "C": "Banking without computers",
+          "D": "Cash-only banking"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Banking IT",
+        "subtopic": "CBS",
+        "explanation": "CBS centralizes customer accounts for anytime-anywhere access.",
+        "marks": 2
+      },
+      {
+        "id": 24,
+        "section": "pk",
+        "question": "UPI is mainly used for:",
+        "options": {
+          "A": "Instant mobile payments",
+          "B": "Yearly settlement only",
+          "C": "Printing passbooks only",
+          "D": "Cooling servers"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Banking IT",
+        "subtopic": "Payments",
+        "explanation": "UPI enables instant account-to-account mobile payments.",
+        "marks": 2
+      },
+      {
+        "id": 25,
+        "section": "pk",
+        "question": "KYC means:",
+        "options": {
+          "A": "Know Your Customer",
+          "B": "Keep Your Cash",
+          "C": "Kill Your Code",
+          "D": "None of these"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Banking IT",
+        "subtopic": "Compliance",
+        "explanation": "KYC is identity verification of customers.",
+        "marks": 2
+      },
+      {
+        "id": 26,
+        "section": "english",
+        "question": "Find the error: Neither of the boys / are / late.",
+        "options": {
+          "A": "Neither of the boys",
+          "B": "are",
+          "C": "late",
+          "D": "No error"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Subject-Verb Agreement",
+        "explanation": "Neither is singular → use 'is', not 'are'.",
+        "marks": 1
+      },
+      {
+        "id": 27,
+        "section": "english",
+        "question": "Find the error: He is senior / than / me.",
+        "options": {
+          "A": "He is senior",
+          "B": "than",
+          "C": "me",
+          "D": "No error"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Correct usage: senior to (not than).",
+        "marks": 1
+      },
+      {
+        "id": 28,
+        "section": "english",
+        "question": "Find the error: She congratulated me / for / my win.",
+        "options": {
+          "A": "She congratulated me",
+          "B": "for",
+          "C": "my win",
+          "D": "No error"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Congratulate someone on something.",
+        "marks": 1
+      },
+      {
+        "id": 29,
+        "section": "english",
+        "question": "Find the error: The news / are / good.",
+        "options": {
+          "A": "The news",
+          "B": "are",
+          "C": "good",
+          "D": "No error"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Subject-Verb Agreement",
+        "explanation": "'News' is singular → 'is'.",
+        "marks": 1
+      },
+      {
+        "id": 30,
+        "section": "english",
+        "question": "Find the error: One of my friends / live / here.",
+        "options": {
+          "A": "One of my friends",
+          "B": "live",
+          "C": "here",
+          "D": "No error"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Subject-Verb Agreement",
+        "explanation": "'One of' takes singular verb → 'lives'.",
+        "marks": 1
+      },
+      {
+        "id": 31,
+        "section": "english",
+        "question": "Find the error: I look forward / to meet / you.",
+        "options": {
+          "A": "I look forward",
+          "B": "to meet",
+          "C": "you",
+          "D": "No error"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "Grammar",
+        "subtopic": "Gerunds",
+        "explanation": "Look forward to + gerund → 'to meeting'.",
+        "marks": 1
+      },
+      {
+        "id": 32,
+        "section": "english",
+        "question": "Find the error: She is good / in / English.",
+        "options": {
+          "A": "She is good",
+          "B": "in",
+          "C": "English",
+          "D": "No error"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Good at a subject/skill.",
+        "marks": 1
+      },
+      {
+        "id": 33,
+        "section": "english",
+        "question": "Success depends ___ hard work.",
+        "options": {
+          "A": "on",
+          "B": "at",
+          "C": "for",
+          "D": "with"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Depends on is the correct collocation.",
+        "marks": 1
+      },
+      {
+        "id": 34,
+        "section": "english",
+        "question": "She has been here ___ Monday.",
+        "options": {
+          "A": "since",
+          "B": "for",
+          "C": "from",
+          "D": "by"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Tenses/Prepositions",
+        "explanation": "Since + point of time; for + duration.",
+        "marks": 1
+      },
+      {
+        "id": 35,
+        "section": "english",
+        "question": "I prefer tea ___ coffee.",
+        "options": {
+          "A": "than",
+          "B": "to",
+          "C": "from",
+          "D": "by"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Prefer X to Y.",
+        "marks": 1
+      },
+      {
+        "id": 36,
+        "section": "english",
+        "question": "He is junior ___ me.",
+        "options": {
+          "A": "than",
+          "B": "to",
+          "C": "from",
+          "D": "with"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Junior/senior/prefer → to.",
+        "marks": 1
+      },
+      {
+        "id": 37,
+        "section": "english",
+        "question": "He was ___ tired that he slept.",
+        "options": {
+          "A": "so",
+          "B": "such",
+          "C": "very",
+          "D": "too"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Conjunctions",
+        "explanation": "So + adjective + that.",
+        "marks": 1
+      },
+      {
+        "id": 38,
+        "section": "english",
+        "question": "___ honest man is respected.",
+        "options": {
+          "A": "A",
+          "B": "An",
+          "C": "The",
+          "D": "No article"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Articles",
+        "explanation": "Honest starts with vowel sound → An.",
+        "marks": 1
+      },
+      {
+        "id": 39,
+        "section": "english",
+        "question": "What is the main idea of the passage?",
+        "options": {
+          "A": "Ignore security completely",
+          "B": "Digital banking needs strong security and customer awareness",
+          "C": "Always share OTP with agents",
+          "D": "Banks should stop digital services"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Reading Comprehension",
+        "subtopic": "Main Idea",
+        "explanation": "Passage stresses cybersecurity, MFA/encryption, and alert customers under regulation.",
+        "marks": 1,
+        "context_group": "passage_digital_banking_security",
+        "context": "Directions (Q39–Q40): Read the passage carefully.\n\nDigital banking needs strong cybersecurity. Phishing and OTP fraud are rising. Encryption and MFA help. Customers must stay alert. Regulators push compliance."
+      },
+      {
+        "id": 40,
+        "section": "english",
+        "question": "According to safe banking practice highlighted in the passage theme, OTP should be:",
+        "options": {
+          "A": "Shared always with callers",
+          "B": "Never shared",
+          "C": "Posted on social media",
+          "D": "Ignored completely as useless"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Reading Comprehension",
+        "subtopic": "Detail/Inference",
+        "explanation": "OTP fraud is rising; OTP must never be shared.",
+        "marks": 1,
+        "context_group": "passage_digital_banking_security"
+      },
+      {
+        "id": 41,
+        "section": "english",
+        "question": "Choose the correct replacement for: discuss about",
+        "options": {
+          "A": "discuss",
+          "B": "discuss on",
+          "C": "discussing about",
+          "D": "No change"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Phrase Replacement",
+        "explanation": "'Discuss' does not take 'about'.",
+        "marks": 1
+      },
+      {
+        "id": 42,
+        "section": "english",
+        "question": "Choose the correct replacement for: more taller",
+        "options": {
+          "A": "taller",
+          "B": "most taller",
+          "C": "more tallest",
+          "D": "No change"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Phrase Replacement",
+        "explanation": "Avoid double comparative; use taller.",
+        "marks": 1
+      },
+      {
+        "id": 43,
+        "section": "english",
+        "question": "Choose the correct replacement for: return back",
+        "options": {
+          "A": "return",
+          "B": "give back again",
+          "C": "returned back",
+          "D": "No change"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Phrase Replacement",
+        "explanation": "'Return' already means give back; 'back' is redundant.",
+        "marks": 1
+      },
+      {
+        "id": 44,
+        "section": "english",
+        "question": "Choose the correct replacement for: capable to",
+        "options": {
+          "A": "capable of",
+          "B": "capable for",
+          "C": "capable in",
+          "D": "No change"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Phrase Replacement",
+        "explanation": "Capable of + gerund/noun.",
+        "marks": 1
+      },
+      {
+        "id": 45,
+        "section": "english",
+        "question": "Phishing means:",
+        "options": {
+          "A": "Fraud to steal information",
+          "B": "A sport",
+          "C": "A loan product",
+          "D": "A printer error"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Vocabulary",
+        "subtopic": "Banking/IT Vocab",
+        "explanation": "Phishing = deceptive attempt to steal credentials/data.",
+        "marks": 1
+      },
+      {
+        "id": 46,
+        "section": "english",
+        "question": "Encrypt means:",
+        "options": {
+          "A": "Code/hide data",
+          "B": "Delete data",
+          "C": "Print data",
+          "D": "Ignore data"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Vocabulary",
+        "subtopic": "IT Vocab",
+        "explanation": "Encryption converts data into unreadable form.",
+        "marks": 1
+      },
+      {
+        "id": 47,
+        "section": "english",
+        "question": "Obsolete means:",
+        "options": {
+          "A": "Outdated",
+          "B": "New",
+          "C": "Fast",
+          "D": "Bright"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Vocabulary",
+        "subtopic": "Synonyms",
+        "explanation": "Obsolete = no longer in use / outdated.",
+        "marks": 1
+      },
+      {
+        "id": 48,
+        "section": "english",
+        "question": "Lucid means:",
+        "options": {
+          "A": "Clear",
+          "B": "Dark",
+          "C": "Confused",
+          "D": "Angry"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Vocabulary",
+        "subtopic": "Synonyms",
+        "explanation": "Lucid = clear and easy to understand.",
+        "marks": 1
+      },
+      {
+        "id": 49,
+        "section": "english",
+        "question": "Fraud means:",
+        "options": {
+          "A": "Honesty",
+          "B": "Cheating/deception",
+          "C": "A gift",
+          "D": "A holiday"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Vocabulary",
+        "subtopic": "Banking Vocab",
+        "explanation": "Fraud = wrongful deception for gain.",
+        "marks": 1
+      },
+      {
+        "id": 50,
+        "section": "english",
+        "question": "Fix the sentence: He don't know.",
+        "options": {
+          "A": "doesn't know",
+          "B": "didn't knew",
+          "C": "not know",
+          "D": "No change"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "SVA",
+        "explanation": "He/She/It → doesn't know.",
+        "marks": 1
+      },
+      {
+        "id": 51,
+        "section": "reasoning",
+        "question": "Statements: A ≥ B > C = D. Conclusion: A > D. Does it follow?",
+        "options": {
+          "A": "Follows",
+          "B": "Does not follow",
+          "C": "Either follows",
+          "D": "Data inadequate"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Inequality",
+        "subtopic": "Direct Relation",
+        "explanation": "A ≥ B > C = D ⇒ A > D.",
+        "marks": 1
+      },
+      {
+        "id": 52,
+        "section": "reasoning",
+        "question": "Statements: P < Q ≤ R. Conclusion: P < R. Does it follow?",
+        "options": {
+          "A": "Follows",
+          "B": "Does not follow",
+          "C": "Either",
+          "D": "None"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Inequality",
+        "subtopic": "Direct Relation",
+        "explanation": "P < Q ≤ R ⇒ P < R.",
+        "marks": 1
+      },
+      {
+        "id": 53,
+        "section": "reasoning",
+        "question": "Codes: @ means >, # means <, & means =. Statement: X @ Y # Z. Conclusion: X > Z. Does it follow?",
+        "options": {
+          "A": "Follows",
+          "B": "Does not follow",
+          "C": "Either",
+          "D": "None"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "Coded Inequality",
+        "subtopic": "Broken Chain",
+        "explanation": "X > Y < Z → relation between X and Z is not definite.",
+        "marks": 1
+      },
+      {
+        "id": 54,
+        "section": "reasoning",
+        "question": "If BAT is coded as CBU (+1 each letter), then SUN is coded as:",
+        "options": {
+          "A": "TVO",
+          "B": "TVM",
+          "C": "RUM",
+          "D": "TVN"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Coding-Decoding",
+        "subtopic": "Letter Shift",
+        "explanation": "S→T, U→V, N→O ⇒ TVO.",
+        "marks": 1
+      },
+      {
+        "id": 55,
+        "section": "reasoning",
+        "question": "Using opposite letters (A↔Z, B↔Y, …), FISH is coded as:",
+        "options": {
+          "A": "URHS",
+          "B": "GJTI",
+          "C": "EHRG",
+          "D": "UFIR"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Coding-Decoding",
+        "subtopic": "Opposite Letters",
+        "explanation": "F↔U, I↔R, S↔H, H↔S ⇒ URHS.",
+        "marks": 1
+      },
+      {
+        "id": 56,
+        "section": "reasoning",
+        "question": "Sum of positional values of ACE (A=1, B=2, …) is:",
+        "options": {
+          "A": "6",
+          "B": "9",
+          "C": "8",
+          "D": "12"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Coding-Decoding",
+        "subtopic": "Position Values",
+        "explanation": "A+C+E = 1+3+5 = 9.",
+        "marks": 1
+      },
+      {
+        "id": 57,
+        "section": "reasoning",
+        "question": "All pens are books. All books are red. Conclusion: All pens are red.",
+        "options": {
+          "A": "Follows",
+          "B": "Does not follow",
+          "C": "Either",
+          "D": "None"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Syllogism",
+        "subtopic": "All-All",
+        "explanation": "All pens ⊆ books ⊆ red ⇒ all pens are red.",
+        "marks": 1
+      },
+      {
+        "id": 58,
+        "section": "reasoning",
+        "question": "All A are B. Some B are C. Conclusion: Some A are C.",
+        "options": {
+          "A": "Follows",
+          "B": "Does not follow",
+          "C": "Either",
+          "D": "None"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "Syllogism",
+        "subtopic": "All+Some",
+        "explanation": "Some B are C need not include A; not definite.",
+        "marks": 1
+      },
+      {
+        "id": 59,
+        "section": "reasoning",
+        "question": "Some dogs are cats. All cats are animals. Conclusion: Some dogs are animals.",
+        "options": {
+          "A": "Follows",
+          "B": "Does not follow",
+          "C": "Either",
+          "D": "None"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Syllogism",
+        "subtopic": "Some+All",
+        "explanation": "Dogs overlapping cats that are animals ⇒ some dogs are animals.",
+        "marks": 1
+      },
+      {
+        "id": 60,
+        "section": "reasoning",
+        "question": "A person walks 6 km South, turns right, walks 8 km. Distance from start?",
+        "options": {
+          "A": "10 km",
+          "B": "14 km",
+          "C": "2 km",
+          "D": "48 km"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Direction Sense",
+        "subtopic": "Pythagoras",
+        "explanation": "Right after South → West. √(6²+8²)=10.",
+        "marks": 1
+      },
+      {
+        "id": 61,
+        "section": "reasoning",
+        "question": "A is father of B. B is mother of C. How is A related to C?",
+        "options": {
+          "A": "Father",
+          "B": "Uncle",
+          "C": "Grandfather",
+          "D": "Brother"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Blood Relation",
+        "subtopic": "Generations",
+        "explanation": "B is mother of C, A is father of B ⇒ A is maternal grandfather of C.",
+        "marks": 1
+      },
+      {
+        "id": 62,
+        "section": "reasoning",
+        "question": "Rank 11th from top and 19th from bottom. Total students?",
+        "options": {
+          "A": "29",
+          "B": "30",
+          "C": "28",
+          "D": "31"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Order & Ranking",
+        "subtopic": "Formula",
+        "explanation": "Total = 11 + 19 − 1 = 29.",
+        "marks": 1
+      },
+      {
+        "id": 63,
+        "section": "reasoning",
+        "question": "Input: 55 12 40 8 27. Rule: smallest number shifts left each step. Step I is:",
+        "options": {
+          "A": "8 55 12 40 27",
+          "B": "12 55 40 8 27",
+          "C": "55 8 12 40 27",
+          "D": "8 12 40 55 27"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Input-Output",
+        "subtopic": "Number Arrangement",
+        "explanation": "Smallest 8 moves to left; remaining keep order.",
+        "marks": 1
+      },
+      {
+        "id": 64,
+        "section": "reasoning",
+        "question": "Same Input-Output: Step II is:",
+        "options": {
+          "A": "8 12 55 40 27",
+          "B": "8 55 12 40 27",
+          "C": "12 8 55 40 27",
+          "D": "8 12 27 40 55"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Input-Output",
+        "subtopic": "Number Arrangement",
+        "explanation": "Next smallest 12 moves left after 8.",
+        "marks": 1
+      },
+      {
+        "id": 65,
+        "section": "reasoning",
+        "question": "P left end, T right end, Q immediate right of P, S between Q and R (5 seats). Who is at position 3?",
+        "options": {
+          "A": "S",
+          "B": "R",
+          "C": "Q",
+          "D": "T"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Puzzles",
+        "subtopic": "Linear Seating",
+        "explanation": "Order: P Q S R T ⇒ position 3 = S.",
+        "marks": 1
+      },
+      {
+        "id": 66,
+        "section": "reasoning",
+        "question": "In the same linear arrangement, who sits between S and T?",
+        "options": {
+          "A": "R",
+          "B": "Q",
+          "C": "P",
+          "D": "None"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Puzzles",
+        "subtopic": "Linear Seating",
+        "explanation": "P-Q-S-R-T ⇒ between S and T is R.",
+        "marks": 1
+      },
+      {
+        "id": 67,
+        "section": "reasoning",
+        "question": "5 floors: Q on 3, P immediately below Q, T on top, R not on 1, S below R. Who is on floor 1?",
+        "options": {
+          "A": "S",
+          "B": "P",
+          "C": "R",
+          "D": "Q"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Puzzles",
+        "subtopic": "Floor Puzzle",
+        "explanation": "S1-P2-Q3-R4-T5.",
+        "marks": 1
+      },
+      {
+        "id": 68,
+        "section": "reasoning",
+        "question": "In the same floor puzzle, who is on floor 4?",
+        "options": {
+          "A": "R",
+          "B": "S",
+          "C": "P",
+          "D": "Q"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Puzzles",
+        "subtopic": "Floor Puzzle",
+        "explanation": "Floor 4 = R.",
+        "marks": 1
+      },
+      {
+        "id": 69,
+        "section": "reasoning",
+        "question": "Codes: 'red is blue'→ka la pa; 'blue and green'→pa sa ta. Code for blue?",
+        "options": {
+          "A": "pa",
+          "B": "ka",
+          "C": "la",
+          "D": "sa"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Coding-Decoding",
+        "subtopic": "Condition Coding",
+        "explanation": "Common word blue ↔ common code pa.",
+        "marks": 1
+      },
+      {
+        "id": 70,
+        "section": "reasoning",
+        "question": "Also 'green is yellow'→ta ka na. Code for yellow?",
+        "options": {
+          "A": "na",
+          "B": "ta",
+          "C": "ka",
+          "D": "pa"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Coding-Decoding",
+        "subtopic": "Condition Coding",
+        "explanation": "is=ka, green=ta ⇒ yellow=na.",
+        "marks": 1
+      },
+      {
+        "id": 71,
+        "section": "reasoning",
+        "question": "Age of A? I: A is 5 years older than B. II: B is 20. Are the data sufficient?",
+        "options": {
+          "A": "I alone",
+          "B": "II alone",
+          "C": "Either I or II alone",
+          "D": "Both I and II together"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Data Sufficiency",
+        "subtopic": "Ages",
+        "explanation": "Need both: A = 20 + 5 = 25.",
+        "marks": 1
+      },
+      {
+        "id": 72,
+        "section": "reasoning",
+        "question": "Tallest among P,Q,R? I: P>Q. II: Q>R. Sufficient?",
+        "options": {
+          "A": "I alone",
+          "B": "II alone",
+          "C": "Either alone",
+          "D": "Both together"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Data Sufficiency",
+        "subtopic": "Comparison",
+        "explanation": "Both ⇒ P > Q > R ⇒ P tallest.",
+        "marks": 1
+      },
+      {
+        "id": 73,
+        "section": "reasoning",
+        "question": "What day is today? I: Yesterday was Friday. II: Tomorrow is Sunday. Sufficient?",
+        "options": {
+          "A": "I alone",
+          "B": "II alone",
+          "C": "Either I or II alone",
+          "D": "Both needed"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Data Sufficiency",
+        "subtopic": "Calendar",
+        "explanation": "Either alone ⇒ today is Saturday.",
+        "marks": 1
+      },
+      {
+        "id": 74,
+        "section": "reasoning",
+        "question": "What is the number? I: It is even. II: It lies between 10 and 14. Sufficient?",
+        "options": {
+          "A": "I alone",
+          "B": "II alone",
+          "C": "Either alone",
+          "D": "Both together"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Data Sufficiency",
+        "subtopic": "Numbers",
+        "explanation": "Even between 10 and 14 ⇒ 12.",
+        "marks": 1
+      },
+      {
+        "id": 75,
+        "section": "reasoning",
+        "question": "Distance? I: Speed = 40 km/h. II: Time = 2 hours. Sufficient?",
+        "options": {
+          "A": "I alone",
+          "B": "II alone",
+          "C": "Either alone",
+          "D": "Both together"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Data Sufficiency",
+        "subtopic": "Speed-Distance",
+        "explanation": "Distance = 40 × 2 = 80 km.",
+        "marks": 1
+      },
+      {
+        "id": 76,
+        "section": "quant",
+        "question": "48 ÷ 8 + 7 × 3 − 5 = ?",
+        "options": {
+          "A": "22",
+          "B": "20",
+          "C": "24",
+          "D": "18"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Simplification",
+        "subtopic": "BODMAS",
+        "explanation": "6 + 21 − 5 = 22.",
+        "marks": 1
+      },
+      {
+        "id": 77,
+        "section": "quant",
+        "question": "30% of 400 + 25 = ?",
+        "options": {
+          "A": "145",
+          "B": "125",
+          "C": "155",
+          "D": "120"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Basic %",
+        "explanation": "0.3×400=120; +25=145.",
+        "marks": 1
+      },
+      {
+        "id": 78,
+        "section": "quant",
+        "question": "(12 + 8) × 5 ÷ 10 = ?",
+        "options": {
+          "A": "10",
+          "B": "8",
+          "C": "12",
+          "D": "15"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Simplification",
+        "subtopic": "BODMAS",
+        "explanation": "20×5÷10=10.",
+        "marks": 1
+      },
+      {
+        "id": 79,
+        "section": "quant",
+        "question": "√196 + 5² − 8 = ?",
+        "options": {
+          "A": "31",
+          "B": "29",
+          "C": "33",
+          "D": "25"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Simplification",
+        "subtopic": "Squares/Roots",
+        "explanation": "14 + 25 − 8 = 31.",
+        "marks": 1
+      },
+      {
+        "id": 80,
+        "section": "quant",
+        "question": "36 ÷ 6 + 8 × 2 − 5 = ?",
+        "options": {
+          "A": "17",
+          "B": "15",
+          "C": "19",
+          "D": "21"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Simplification",
+        "subtopic": "BODMAS",
+        "explanation": "6 + 16 − 5 = 17.",
+        "marks": 1
+      },
+      {
+        "id": 81,
+        "section": "quant",
+        "question": "49.9 × 2.1 ≈ ?",
+        "options": {
+          "A": "105",
+          "B": "90",
+          "C": "120",
+          "D": "80"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Approximation",
+        "subtopic": "Rounding",
+        "explanation": "≈50×2.1=105.",
+        "marks": 1
+      },
+      {
+        "id": 82,
+        "section": "quant",
+        "question": "998 ÷ 4.9 ≈ ?",
+        "options": {
+          "A": "200",
+          "B": "150",
+          "C": "250",
+          "D": "180"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Approximation",
+        "subtopic": "Rounding",
+        "explanation": "≈1000÷5=200.",
+        "marks": 1
+      },
+      {
+        "id": 83,
+        "section": "quant",
+        "question": "15% of 402 ≈ ?",
+        "options": {
+          "A": "60",
+          "B": "50",
+          "C": "70",
+          "D": "45"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Approximation",
+        "subtopic": "Percentage",
+        "explanation": "≈15% of 400 = 60.",
+        "marks": 1
+      },
+      {
+        "id": 84,
+        "section": "quant",
+        "question": "Series: 3, 6, 12, 24, ?",
+        "options": {
+          "A": "48",
+          "B": "36",
+          "C": "42",
+          "D": "30"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Number Series",
+        "subtopic": "×2 Pattern",
+        "explanation": "Each term ×2 ⇒ 48.",
+        "marks": 1
+      },
+      {
+        "id": 85,
+        "section": "quant",
+        "question": "Series: 1, 4, 9, 16, 25, ?",
+        "options": {
+          "A": "36",
+          "B": "30",
+          "C": "49",
+          "D": "32"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Number Series",
+        "subtopic": "Squares",
+        "explanation": "Perfect squares ⇒ next 36.",
+        "marks": 1
+      },
+      {
+        "id": 86,
+        "section": "quant",
+        "question": "Series: 2, 6, 12, 20, 30, ?",
+        "options": {
+          "A": "42",
+          "B": "40",
+          "C": "36",
+          "D": "44"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Number Series",
+        "subtopic": "+n Pattern",
+        "explanation": "Differences +4,+6,+8,+10,+12 ⇒ 42.",
+        "marks": 1
+      },
+      {
+        "id": 87,
+        "section": "quant",
+        "question": "x²−5x+6=0 and y²−9y+20=0. Relation between x and y?",
+        "options": {
+          "A": "x < y",
+          "B": "x > y",
+          "C": "x = y",
+          "D": "Cannot be determined"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Quadratic Equations",
+        "subtopic": "Compare Roots",
+        "explanation": "x=2,3; y=4,5 ⇒ x < y.",
+        "marks": 1
+      },
+      {
+        "id": 88,
+        "section": "quant",
+        "question": "x²−4x+4=0 and y²−4y+4=0. Relation?",
+        "options": {
+          "A": "x < y",
+          "B": "x > y",
+          "C": "x = y",
+          "D": "Cannot be determined"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Quadratic Equations",
+        "subtopic": "Compare Roots",
+        "explanation": "Both give root 2 ⇒ x = y.",
+        "marks": 1
+      },
+      {
+        "id": 89,
+        "section": "quant",
+        "question": "x²−7x+12=0 and y²−5y+6=0. Relation?",
+        "options": {
+          "A": "x < y",
+          "B": "x > y",
+          "C": "x = y",
+          "D": "Cannot be determined"
+        },
+        "answer": "D",
+        "difficulty": "Medium",
+        "topic": "Quadratic Equations",
+        "subtopic": "Compare Roots",
+        "explanation": "x=3,4; y=2,3 ⇒ relation not unique.",
+        "marks": 1
+      },
+      {
+        "id": 90,
+        "section": "quant",
+        "question": "Sales: Mon 200, Tue 350, Wed 250, Thu 400, Fri 300. Total sales?",
+        "options": {
+          "A": "1500",
+          "B": "1400",
+          "C": "1600",
+          "D": "1200"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Data Interpretation",
+        "subtopic": "Table Totals",
+        "explanation": "200+350+250+400+300=1500.",
+        "marks": 1
+      },
+      {
+        "id": 91,
+        "section": "quant",
+        "question": "Using the same sales data, average daily sales?",
+        "options": {
+          "A": "300",
+          "B": "250",
+          "C": "350",
+          "D": "280"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Data Interpretation",
+        "subtopic": "Average",
+        "explanation": "1500/5=300.",
+        "marks": 1
+      },
+      {
+        "id": 92,
+        "section": "quant",
+        "question": "Using the same sales data, highest sales day?",
+        "options": {
+          "A": "Thursday",
+          "B": "Tuesday",
+          "C": "Friday",
+          "D": "Monday"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Data Interpretation",
+        "subtopic": "Comparison",
+        "explanation": "Thu=400 is maximum.",
+        "marks": 1
+      },
+      {
+        "id": 93,
+        "section": "quant",
+        "question": "Using the same sales data, Thu − Mon = ?",
+        "options": {
+          "A": "200",
+          "B": "150",
+          "C": "100",
+          "D": "250"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Data Interpretation",
+        "subtopic": "Difference",
+        "explanation": "400−200=200.",
+        "marks": 1
+      },
+      {
+        "id": 94,
+        "section": "quant",
+        "question": "A:B = 3:5 and B = 45. Find A.",
+        "options": {
+          "A": "27",
+          "B": "30",
+          "C": "25",
+          "D": "36"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Ratio",
+        "subtopic": "Parts Method",
+        "explanation": "A=3/5×45=27.",
+        "marks": 1
+      },
+      {
+        "id": 95,
+        "section": "quant",
+        "question": "SI on ₹4000 at 5% p.a. for 2 years?",
+        "options": {
+          "A": "400",
+          "B": "200",
+          "C": "500",
+          "D": "450"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Simple Interest",
+        "subtopic": "Formula",
+        "explanation": "SI=(4000×5×2)/100=400.",
+        "marks": 1
+      },
+      {
+        "id": 96,
+        "section": "quant",
+        "question": "25% of 480 = ?",
+        "options": {
+          "A": "120",
+          "B": "100",
+          "C": "140",
+          "D": "96"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Basic %",
+        "explanation": "0.25×480=120.",
+        "marks": 1
+      },
+      {
+        "id": 97,
+        "section": "quant",
+        "question": "CP=500, SP=600. Profit %?",
+        "options": {
+          "A": "20%",
+          "B": "25%",
+          "C": "15%",
+          "D": "10%"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Profit & Loss",
+        "subtopic": "Profit %",
+        "explanation": "Profit 100; % = 100/500×100=20%.",
+        "marks": 1
+      },
+      {
+        "id": 98,
+        "section": "quant",
+        "question": "CP=900, Loss=10%. SP=?",
+        "options": {
+          "A": "810",
+          "B": "890",
+          "C": "800",
+          "D": "820"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Profit & Loss",
+        "subtopic": "Loss SP",
+        "explanation": "SP=900×0.9=810.",
+        "marks": 1
+      },
+      {
+        "id": 99,
+        "section": "quant",
+        "question": "Average of 4 numbers is 25. Their sum?",
+        "options": {
+          "A": "100",
+          "B": "50",
+          "C": "75",
+          "D": "125"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Average",
+        "subtopic": "Sum Formula",
+        "explanation": "Sum=25×4=100.",
+        "marks": 1
+      },
+      {
+        "id": 100,
+        "section": "quant",
+        "question": "1000 decreased by 10%. New value?",
+        "options": {
+          "A": "900",
+          "B": "990",
+          "C": "890",
+          "D": "910"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Decrease",
+        "explanation": "1000×0.9=900.",
+        "marks": 1
+      }
+    ]
+  }
+}

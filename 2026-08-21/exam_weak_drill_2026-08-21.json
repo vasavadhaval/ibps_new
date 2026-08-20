@@ -1,0 +1,880 @@
+{
+  "exam": {
+    "id": "ibps-weak-drill-2026-08-21",
+    "title": "IBPS IT Officer — Weak Areas Drill (Post 95.25 Mock)",
+    "type": "Targeted Practice | Reasoning + English + Quant + PK",
+    "date": "2026-08-21",
+    "duration_minutes": 35,
+    "total_questions": 49,
+    "total_marks": 57,
+    "marking": {
+      "correct": 1,
+      "wrong": -0.25,
+      "unattempted": 0,
+      "note": "PK questions use marks:2. Answer letters are distributed across A/B/C/D (not fixed on B)."
+    },
+    "sections": [
+      {
+        "id": "reasoning",
+        "name": "Reasoning Ability (Weak Fix)",
+        "questions": 15
+      },
+      {
+        "id": "english",
+        "name": "English Language (Fix List)",
+        "questions": 14
+      },
+      {
+        "id": "quant",
+        "name": "Quantitative Aptitude (% Mix)",
+        "questions": 12
+      },
+      {
+        "id": "pk",
+        "name": "Professional Knowledge (Quick Fix)",
+        "questions": 8
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "section": "reasoning",
+        "question": "If CAT = DBU (+1 each letter), then PEN = ?",
+        "options": {
+          "A": "QFO",
+          "B": "QEP",
+          "C": "ODM",
+          "D": "PEO"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Coding-Decoding",
+        "subtopic": "Letter Shift",
+        "explanation": "P→Q, E→F, N→O ⇒ QFO.",
+        "marks": 1
+      },
+      {
+        "id": 2,
+        "section": "reasoning",
+        "question": "If BOOK = CPPL (+1), then DESK = ?",
+        "options": {
+          "A": "EFSL",
+          "B": "EFTK",
+          "C": "EFTL",
+          "D": "CFTL"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Coding-Decoding",
+        "subtopic": "Letter Shift",
+        "explanation": "D→E, E→F, S→T, K→L ⇒ EFTL.",
+        "marks": 1
+      },
+      {
+        "id": 3,
+        "section": "reasoning",
+        "question": "Using opposite letters (A↔Z), COLD is coded as:",
+        "options": {
+          "A": "DPME",
+          "B": "XMNW",
+          "C": "XLOV",
+          "D": "XLOW"
+        },
+        "answer": "D",
+        "difficulty": "Medium",
+        "topic": "Coding-Decoding",
+        "subtopic": "Opposite Letters",
+        "explanation": "C↔X, O↔L, L↔O, D↔W ⇒ XLOW.",
+        "marks": 1
+      },
+      {
+        "id": 4,
+        "section": "reasoning",
+        "question": "Using opposite letters, FISH is coded as:",
+        "options": {
+          "A": "EHRG",
+          "B": "URHS",
+          "C": "GJTI",
+          "D": "UFIR"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "Coding-Decoding",
+        "subtopic": "Opposite Letters",
+        "explanation": "F↔U, I↔R, S↔H, H↔S ⇒ URHS.",
+        "marks": 1
+      },
+      {
+        "id": 5,
+        "section": "reasoning",
+        "question": "Sum of positional values of DOG (A=1) is:",
+        "options": {
+          "A": "24",
+          "B": "22",
+          "C": "26",
+          "D": "28"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Coding-Decoding",
+        "subtopic": "Position Values",
+        "explanation": "D+O+G = 4+15+7 = 26.",
+        "marks": 1
+      },
+      {
+        "id": 6,
+        "section": "reasoning",
+        "question": "Codes: red is blue→ka la pa; blue and green→pa sa ta. Code for blue?",
+        "options": {
+          "A": "pa",
+          "B": "ka",
+          "C": "sa",
+          "D": "la"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Coding-Decoding",
+        "subtopic": "Condition Coding",
+        "explanation": "Common word blue ↔ common code pa.",
+        "marks": 1
+      },
+      {
+        "id": 7,
+        "section": "reasoning",
+        "question": "Also green is yellow→ta ka na. Code for is?",
+        "options": {
+          "A": "pa",
+          "B": "na",
+          "C": "ta",
+          "D": "ka"
+        },
+        "answer": "D",
+        "difficulty": "Medium",
+        "topic": "Coding-Decoding",
+        "subtopic": "Condition Coding",
+        "explanation": "Common word is ↔ ka.",
+        "marks": 1
+      },
+      {
+        "id": 8,
+        "section": "reasoning",
+        "question": "Code for yellow?",
+        "options": {
+          "A": "ka",
+          "B": "na",
+          "C": "ta",
+          "D": "pa"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "Coding-Decoding",
+        "subtopic": "Condition Coding",
+        "explanation": "After assigning is=ka and green=ta, yellow=na.",
+        "marks": 1
+      },
+      {
+        "id": 9,
+        "section": "reasoning",
+        "question": "Input: 64 15 42 9 30. Rule: smallest shifts left each step. Step I?",
+        "options": {
+          "A": "9 64 15 42 30",
+          "B": "64 9 15 42 30",
+          "C": "15 64 42 9 30",
+          "D": "9 15 64 42 30"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Input-Output",
+        "subtopic": "Number Arrangement",
+        "explanation": "Smallest 9 moves left; rest keep order.",
+        "marks": 1
+      },
+      {
+        "id": 10,
+        "section": "reasoning",
+        "question": "Same I/O. Step II?",
+        "options": {
+          "A": "15 9 64 42 30",
+          "B": "9 64 15 42 30",
+          "C": "9 15 64 42 30",
+          "D": "9 15 42 64 30"
+        },
+        "answer": "C",
+        "difficulty": "Medium",
+        "topic": "Input-Output",
+        "subtopic": "Number Arrangement",
+        "explanation": "Next smallest 15 moves after 9.",
+        "marks": 1
+      },
+      {
+        "id": 11,
+        "section": "reasoning",
+        "question": "Same I/O. After Step III, the leftmost two numbers are:",
+        "options": {
+          "A": "15 42",
+          "B": "9 15",
+          "C": "9 42",
+          "D": "9 30"
+        },
+        "answer": "B",
+        "difficulty": "Medium",
+        "topic": "Input-Output",
+        "subtopic": "Number Arrangement",
+        "explanation": "Step III: 9 15 30 64 42 — leftmost two remain 9 and 15.",
+        "marks": 1
+      },
+      {
+        "id": 12,
+        "section": "reasoning",
+        "question": "Same I/O. Fully sorted in how many steps?",
+        "options": {
+          "A": "4",
+          "B": "6",
+          "C": "3",
+          "D": "5"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Input-Output",
+        "subtopic": "Number Arrangement",
+        "explanation": "5 numbers → 5 steps to fully arrange.",
+        "marks": 1
+      },
+      {
+        "id": 13,
+        "section": "reasoning",
+        "question": "Floors: C on 2, B above C, E top, A not on 1, D below A (5 floors). Who on floor 1?",
+        "options": {
+          "A": "D",
+          "B": "A",
+          "C": "C",
+          "D": "B"
+        },
+        "answer": "A",
+        "difficulty": "Medium",
+        "topic": "Puzzles",
+        "subtopic": "Floor Puzzle",
+        "explanation": "Arrangement: D1-C2-B3-A4-E5.",
+        "marks": 1
+      },
+      {
+        "id": 14,
+        "section": "reasoning",
+        "question": "Same floor puzzle. Floor of A?",
+        "options": {
+          "A": "2",
+          "B": "5",
+          "C": "4",
+          "D": "3"
+        },
+        "answer": "C",
+        "difficulty": "Medium",
+        "topic": "Puzzles",
+        "subtopic": "Floor Puzzle",
+        "explanation": "A lives on floor 4.",
+        "marks": 1
+      },
+      {
+        "id": 15,
+        "section": "reasoning",
+        "question": "Same floor puzzle. Who lives immediately below E?",
+        "options": {
+          "A": "D",
+          "B": "C",
+          "C": "B",
+          "D": "A"
+        },
+        "answer": "D",
+        "difficulty": "Medium",
+        "topic": "Puzzles",
+        "subtopic": "Floor Puzzle",
+        "explanation": "E on 5 ⇒ immediately below is A on 4.",
+        "marks": 1
+      },
+      {
+        "id": 16,
+        "section": "english",
+        "question": "One of my friends ___ here.",
+        "options": {
+          "A": "living",
+          "B": "lives",
+          "C": "live",
+          "D": "have lived"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Subject-Verb Agreement",
+        "explanation": "'One of' takes singular verb → lives.",
+        "marks": 1
+      },
+      {
+        "id": 17,
+        "section": "english",
+        "question": "Neither of the boys ___ ready.",
+        "options": {
+          "A": "have",
+          "B": "are",
+          "C": "is",
+          "D": "were"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Subject-Verb Agreement",
+        "explanation": "Neither is singular → is.",
+        "marks": 1
+      },
+      {
+        "id": 18,
+        "section": "english",
+        "question": "The news ___ good.",
+        "options": {
+          "A": "is",
+          "B": "have",
+          "C": "were",
+          "D": "are"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Subject-Verb Agreement",
+        "explanation": "News is singular → is.",
+        "marks": 1
+      },
+      {
+        "id": 19,
+        "section": "english",
+        "question": "He is senior ___ me.",
+        "options": {
+          "A": "than",
+          "B": "from",
+          "C": "with",
+          "D": "to"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Senior/junior → to.",
+        "marks": 1
+      },
+      {
+        "id": 20,
+        "section": "english",
+        "question": "I prefer tea ___ coffee.",
+        "options": {
+          "A": "than",
+          "B": "to",
+          "C": "from",
+          "D": "by"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Prefer X to Y.",
+        "marks": 1
+      },
+      {
+        "id": 21,
+        "section": "english",
+        "question": "She congratulated me ___ my success.",
+        "options": {
+          "A": "on",
+          "B": "for",
+          "C": "with",
+          "D": "at"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Congratulate on.",
+        "marks": 1
+      },
+      {
+        "id": 22,
+        "section": "english",
+        "question": "She is good ___ English.",
+        "options": {
+          "A": "on",
+          "B": "with",
+          "C": "at",
+          "D": "in"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Good at a subject.",
+        "marks": 1
+      },
+      {
+        "id": 23,
+        "section": "english",
+        "question": "Success depends ___ hard work.",
+        "options": {
+          "A": "for",
+          "B": "on",
+          "C": "at",
+          "D": "with"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Prepositions",
+        "explanation": "Depends on.",
+        "marks": 1
+      },
+      {
+        "id": 24,
+        "section": "english",
+        "question": "Choose correct form instead of: discuss about",
+        "options": {
+          "A": "No change",
+          "B": "discuss on",
+          "C": "discussing about",
+          "D": "discuss"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Phrase Replacement",
+        "explanation": "Discuss does not take about.",
+        "marks": 1
+      },
+      {
+        "id": 25,
+        "section": "english",
+        "question": "Choose correct form instead of: return back",
+        "options": {
+          "A": "return",
+          "B": "give back again",
+          "C": "No change",
+          "D": "returned back"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Phrase Replacement",
+        "explanation": "Return already means give back.",
+        "marks": 1
+      },
+      {
+        "id": 26,
+        "section": "english",
+        "question": "Choose correct form instead of: more taller",
+        "options": {
+          "A": "No change",
+          "B": "more tallest",
+          "C": "taller",
+          "D": "most taller"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Phrase Replacement",
+        "explanation": "Avoid double comparative.",
+        "marks": 1
+      },
+      {
+        "id": 27,
+        "section": "english",
+        "question": "Choose correct form instead of: capable to do",
+        "options": {
+          "A": "capable for doing",
+          "B": "capable in doing",
+          "C": "No change",
+          "D": "capable of doing"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "Phrase Replacement",
+        "explanation": "Capable of + gerund.",
+        "marks": 1
+      },
+      {
+        "id": 28,
+        "section": "english",
+        "question": "Fraud means:",
+        "options": {
+          "A": "a holiday",
+          "B": "cheating/deception",
+          "C": "honesty",
+          "D": "a gift"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Vocabulary",
+        "subtopic": "Banking Vocab",
+        "explanation": "Fraud = wrongful deception for gain.",
+        "marks": 1
+      },
+      {
+        "id": 29,
+        "section": "english",
+        "question": "Fix: He don't know.",
+        "options": {
+          "A": "No change",
+          "B": "didn't knew",
+          "C": "doesn't know",
+          "D": "not know"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Grammar",
+        "subtopic": "SVA",
+        "explanation": "He/She/It → doesn't.",
+        "marks": 1
+      },
+      {
+        "id": 30,
+        "section": "quant",
+        "question": "25% of 480 = ?",
+        "options": {
+          "A": "120",
+          "B": "140",
+          "C": "96",
+          "D": "100"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Basic %",
+        "explanation": "0.25×480=120.",
+        "marks": 1
+      },
+      {
+        "id": 31,
+        "section": "quant",
+        "question": "30% of 500 = ?",
+        "options": {
+          "A": "180",
+          "B": "120",
+          "C": "100",
+          "D": "150"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Basic %",
+        "explanation": "0.3×500=150.",
+        "marks": 1
+      },
+      {
+        "id": 32,
+        "section": "quant",
+        "question": "15% of 400 = ?",
+        "options": {
+          "A": "50",
+          "B": "60",
+          "C": "40",
+          "D": "70"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Basic %",
+        "explanation": "0.15×400=60.",
+        "marks": 1
+      },
+      {
+        "id": 33,
+        "section": "quant",
+        "question": "40% of 250 = ?",
+        "options": {
+          "A": "100",
+          "B": "90",
+          "C": "120",
+          "D": "80"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Basic %",
+        "explanation": "0.4×250=100.",
+        "marks": 1
+      },
+      {
+        "id": 34,
+        "section": "quant",
+        "question": "20% of 350 + 30 = ?",
+        "options": {
+          "A": "80",
+          "B": "110",
+          "C": "100",
+          "D": "90"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Mixed",
+        "explanation": "70+30=100.",
+        "marks": 1
+      },
+      {
+        "id": 35,
+        "section": "quant",
+        "question": "1000 decreased by 10% = ?",
+        "options": {
+          "A": "890",
+          "B": "900",
+          "C": "990",
+          "D": "910"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Decrease",
+        "explanation": "1000×0.9=900.",
+        "marks": 1
+      },
+      {
+        "id": 36,
+        "section": "quant",
+        "question": "A is 25% more than B. B=400. A=?",
+        "options": {
+          "A": "480",
+          "B": "450",
+          "C": "425",
+          "D": "500"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Increase",
+        "explanation": "400×1.25=500.",
+        "marks": 1
+      },
+      {
+        "id": 37,
+        "section": "quant",
+        "question": "A is 20% more than B. B=250. A=?",
+        "options": {
+          "A": "300",
+          "B": "280",
+          "C": "320",
+          "D": "270"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Percentage",
+        "subtopic": "Increase",
+        "explanation": "250×1.2=300.",
+        "marks": 1
+      },
+      {
+        "id": 38,
+        "section": "quant",
+        "question": "CP=500, SP=600. Profit %?",
+        "options": {
+          "A": "25%",
+          "B": "15%",
+          "C": "20%",
+          "D": "10%"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Profit & Loss",
+        "subtopic": "Profit %",
+        "explanation": "100/500×100=20%.",
+        "marks": 1
+      },
+      {
+        "id": 39,
+        "section": "quant",
+        "question": "CP=900, Loss=10%. SP=?",
+        "options": {
+          "A": "890",
+          "B": "800",
+          "C": "820",
+          "D": "810"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Profit & Loss",
+        "subtopic": "Loss SP",
+        "explanation": "900×0.9=810.",
+        "marks": 1
+      },
+      {
+        "id": 40,
+        "section": "quant",
+        "question": "SI on ₹4000 at 5% for 2 years?",
+        "options": {
+          "A": "200",
+          "B": "400",
+          "C": "450",
+          "D": "500"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Simple Interest",
+        "subtopic": "Formula",
+        "explanation": "(4000×5×2)/100=400.",
+        "marks": 1
+      },
+      {
+        "id": 41,
+        "section": "quant",
+        "question": "48 ÷ 8 + 7 × 3 − 5 = ?",
+        "options": {
+          "A": "18",
+          "B": "24",
+          "C": "22",
+          "D": "20"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Simplification",
+        "subtopic": "BODMAS",
+        "explanation": "6+21−5=22.",
+        "marks": 1
+      },
+      {
+        "id": 42,
+        "section": "pk",
+        "question": "A program in execution is called a:",
+        "options": {
+          "A": "Process",
+          "B": "Folder",
+          "C": "File",
+          "D": "Port"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Operating Systems",
+        "subtopic": "Process Management",
+        "explanation": "Process = program currently running.",
+        "marks": 2
+      },
+      {
+        "id": 43,
+        "section": "pk",
+        "question": "Round Robin scheduling uses:",
+        "options": {
+          "A": "Longest job first",
+          "B": "Priority only",
+          "C": "Random selection",
+          "D": "Time quantum"
+        },
+        "answer": "D",
+        "difficulty": "Easy",
+        "topic": "Operating Systems",
+        "subtopic": "CPU Scheduling",
+        "explanation": "RR uses fixed time slice/quantum.",
+        "marks": 2
+      },
+      {
+        "id": 44,
+        "section": "pk",
+        "question": "UPI is mainly used for:",
+        "options": {
+          "A": "Cooling servers",
+          "B": "Instant mobile payments",
+          "C": "Yearly settlement only",
+          "D": "Printing passbooks only"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Banking IT",
+        "subtopic": "Payments",
+        "explanation": "UPI = instant account transfers via mobile.",
+        "marks": 2
+      },
+      {
+        "id": 45,
+        "section": "pk",
+        "question": "Which structure follows LIFO?",
+        "options": {
+          "A": "Stack",
+          "B": "Graph only",
+          "C": "Tree only",
+          "D": "Queue"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Data Structures",
+        "subtopic": "Stack",
+        "explanation": "Stack = Last In First Out.",
+        "marks": 2
+      },
+      {
+        "id": 46,
+        "section": "pk",
+        "question": "Default HTTPS port is:",
+        "options": {
+          "A": "80",
+          "B": "21",
+          "C": "443",
+          "D": "25"
+        },
+        "answer": "C",
+        "difficulty": "Easy",
+        "topic": "Computer Networks",
+        "subtopic": "Ports",
+        "explanation": "HTTPS → 443; HTTP → 80.",
+        "marks": 2
+      },
+      {
+        "id": 47,
+        "section": "pk",
+        "question": "TCP is best described as:",
+        "options": {
+          "A": "Connectionless",
+          "B": "Reliable and connection-oriented",
+          "C": "Same as UDP always",
+          "D": "Physical layer only"
+        },
+        "answer": "B",
+        "difficulty": "Easy",
+        "topic": "Computer Networks",
+        "subtopic": "TCP/IP",
+        "explanation": "TCP provides reliable ordered delivery.",
+        "marks": 2
+      },
+      {
+        "id": 48,
+        "section": "pk",
+        "question": "A page fault means:",
+        "options": {
+          "A": "Page is deleted",
+          "B": "Page is printed",
+          "C": "Page already in RAM",
+          "D": "Required page must be loaded from disk"
+        },
+        "answer": "D",
+        "difficulty": "Medium",
+        "topic": "Operating Systems",
+        "subtopic": "Memory Management",
+        "explanation": "Page not in RAM → fetch from disk.",
+        "marks": 2
+      },
+      {
+        "id": 49,
+        "section": "pk",
+        "question": "KYC means:",
+        "options": {
+          "A": "Know Your Customer",
+          "B": "Kill Your Code",
+          "C": "None of these",
+          "D": "Keep Your Cash"
+        },
+        "answer": "A",
+        "difficulty": "Easy",
+        "topic": "Banking IT",
+        "subtopic": "Compliance",
+        "explanation": "KYC = customer identity verification.",
+        "marks": 2
+      }
+    ],
+    "answer_distribution": {
+      "A": 13,
+      "B": 12,
+      "C": 12,
+      "D": 12
+    }
+  }
+}

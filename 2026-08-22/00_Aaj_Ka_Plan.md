@@ -1,55 +1,39 @@
-# 🎯 IBPS IT Officer Prelims — 22 August 2026 Plan
+# 📅 Aaj Ka Plan — 22 August 2026 (Day 46 · WEAK REVISION DAY 1)
 
-> Based on the latest fresh-mock result. Exam date: **29 August 2026**.
+> **Goal:** Prelims pass (4 cut-offs). Aaj = tumhari galat topics ka **Part-1 revision**.
+> Kal (23) = Part-2 (Puzzles + English polish + Quant/DI).
 
-## 📊 Current Baseline
+---
 
-- Fresh Mock Score: **51.75 / 125**
-- Percentage of maximum score: **41.4%**
-- Accuracy: **73.08%**
-- Correct: **57**
-- Wrong: **21**
-- Skipped: **22**
-- Time: **66 min 53 sec**
-- Average: **40.1 sec/question**
+## 🎯 Aaj cover (Untitled weak list — Batch A)
 
-## 🔥 Today's Priority
+| Block | Topics | Time | File |
+|---|---|---|---|
+| 1 | **PK:** CPU Scheduling, Memory (thrashing), Ports, Stack apps, Binary Search, Testing | 45 min | `01_PK_Weak_Revision_BatchA.md` |
+| 2 | **Reasoning:** Syllogism No+All, Direction, Blood (pointers+family), Calendar, Alphanumeric | 45 min | `02_Reasoning_Weak_BatchA.md` |
+| 3 | **English:** Collective nouns, Articles, Conjunctions | 30 min | `03_English_Weak_BatchA.md` |
+| 4 | **Quant:** Simplification (fractions/%, squares), SI (formula + principal) | 30 min | `04_Quant_Weak_BatchA.md` |
+| 5 | Error notebook | 10 min | apni copy |
 
-### 1. Quantitative Aptitude — Highest Priority
-- Score: **6 / 25**
-- Accuracy: **63.6%**
-- Average time: **46.2 sec/question**
-- Diagnostic recommendation: **Simplification**
+**Total ~2.5–3 hrs**
 
-**Action:** Revise simplification basics first, then do a timed simplification drill. Focus on calculation speed and avoiding careless mistakes.
+---
 
-### 2. English Language
-- Score: **14 / 25**
-- Accuracy: **66.7%**
-- Average time: **34.2 sec/question**
+## ✅ Checklist
 
-**Action:** Review wrong questions from the mock and build a short error list. Prioritize accuracy before speed.
+| # | Done |
+|---|---|
+| PK Batch A | ⬜ |
+| Reasoning Batch A | ⬜ |
+| English Batch A | ⬜ |
+| Quant Batch A | ⬜ |
+| Notebook update | ⬜ |
 
-### 3. Reasoning Ability
-- Score: **14 / 25**
-- Accuracy: **78.9%**
-- Average time: **48 sec/question**
+---
 
-**Action:** Maintain accuracy while reducing time on lengthy questions.
+## 📌 Niyam
+1. Har topic: **rule 2 min → 3–4 Q → answer check**
+2. Naya syllabus mat kholo — sirf yeh list
+3. Kal puzzles + heavy quant
 
-### 4. Professional Knowledge
-- Score: **17.75 / 25**
-- Accuracy: **79.2%**
-- Average time: **28.4 sec/question**
-
-**Action:** Keep PK in maintenance mode. Revise only the concepts missed in the mock.
-
-## ⏱️ Suggested Study Order
-
-1. Quant — Simplification + calculation drill
-2. English — wrong-question review
-3. Reasoning — timed mixed drill
-4. PK — weak-concept revision
-5. Short error-log revision before sleep
-
-> Goal: convert today's **51.75** baseline into a safer score by improving **Quant accuracy first**, without sacrificing the stronger PK/Reasoning performance.
+> Day 46. Weak list = roadmap. Fix → marks.

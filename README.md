@@ -1,5 +1,7 @@
 # IBPS IT Officer (SO Scale-I) — Prelims Taiyari (Hindi)
 
+> **Author:** Dhaval Vasava
+>
 > **Aapka Target:** Prelims **pass** (sectional + overall cut-off) | **Time:** 2 mahine | **Role:** IT Officer
 > **Rule:** **4 sections** — English, Reasoning, Quant, **Professional Knowledge**. PK = 50 marks (sabse bada)!
 
